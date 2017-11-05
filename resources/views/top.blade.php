@@ -1,5 +1,14 @@
+@php
+    $title = config('app.name');
+@endphp
 
-<h1>hoge</h1>
+@extends('layouts.my')
+
+@section('title', $title)
+
+@section('content')
+<h1>{{ $title }}</h1>
 <p>
-  top page
+    {{ __('My practice for basic CRUD of Laravel 5.5 on Heroku.') }}
 </p>
+@endsection
