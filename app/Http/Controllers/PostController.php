@@ -15,7 +15,7 @@ class PostController extends Controller
     {
         //
         // 3. latestメソッドがおすすめ
-        $posts = Post::latest()->get();
+        $posts = Post::latest()->paginate(5);
 
         return view('posts.index', ['posts' => $posts]);
     }

@@ -22,4 +22,5 @@
         </tbody>
     </table>
 </div>
+{{ $users->links() }}
 @endsection
