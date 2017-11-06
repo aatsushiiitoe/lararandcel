@@ -41,7 +41,7 @@
 
                     <!-- 投稿ボタン -->
                     <li class="nav-item">
-                        <a href="<?php echo e(url('users/create')); ?>" id="new-post" class="btn btn-success">
+                        <a href="<?php echo e(url('posts/create')); ?>" id="new-post" class="btn btn-success">
                             <?php echo e(__('New Post')); ?>
 
                         </a>

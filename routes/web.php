@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('top');
 });
-
+Route::resource('posts', 'PostController');
 Auth::routes();
 Route::resource('users', 'UserController');
 Route::get('/home', 'HomeController@index')->name('home');

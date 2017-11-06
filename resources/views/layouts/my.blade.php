@@ -41,7 +41,7 @@
 
                     <!-- 投稿ボタン -->
                     <li class="nav-item">
-                        <a href="{{ url('users/create') }}" id="new-post" class="btn btn-success">
+                        <a href="{{ url('posts/create') }}" id="new-post" class="btn btn-success">
                             {{ __('New Post') }}
                         </a>
                     </li>
